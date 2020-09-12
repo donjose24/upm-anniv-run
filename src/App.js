@@ -87,7 +87,7 @@ function App() {
           <ReactFullpage.Wrapper>
             <div className="section">
               <div className="half">
-                <h1 className="header">{apiData.bike_total + apiData.run_total} KM</h1>
+                <h1 className="header">{(apiData.bike_total + apiData.run_total).toFixed(2)} KM</h1>
                 <h3 className="subheader"> of 4300 KM </h3>
               </div>
               <div className="half">
