@@ -17,7 +17,7 @@ const originalColors = ['#ff5f45', '#0798ec' ,'#7e8a97']
 
 
 function App() {
-  const [apiData, setApiData] = useState({bike_total: "0", run_total: "0"});
+  const [apiData, setApiData] = useState({bike_total: 0, run_total: 0});
   const [batches, setBatches] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [topFemales, setTopFemale] = useState([])
