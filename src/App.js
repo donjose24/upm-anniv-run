@@ -120,7 +120,7 @@ function App() {
             </div>
             <div className="section">
               <div className="center">
-              <h2 className="subheader"> Top Female Athletes </h2>
+              <h2 className="subheader bold"> Top Female Athletes </h2>
                 <ul>
                   {topFemales.map((value, index) => {
                     return (
@@ -128,7 +128,7 @@ function App() {
                     )
                   })}
                 </ul>
-               <h2 className="subheader"> Top Male Athletes </h2>
+               <h2 className="subheader bold"> Top Male Athletes </h2>
                 <ul>
                   {topMales.map((value, index) => {
                     return (
